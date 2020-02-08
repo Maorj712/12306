@@ -22,7 +22,7 @@ headers = {
     'Host': 'kyfw.12306.cn',
     'Cookie': 'JSESSIONID=648A5833BE78C4AE9233691E4F6CE215; RAIL_EXPIRATION=1577530593556; RAIL_DEVICEID=GKHGVambSz4ZgwCtUhNAnMEDsHv54o9Z-oOczHAsrRxkEk0scEIrzHF6kHE-kUCxsTLwZjmXcim5KbkN9V0UHW3XsaUR5_6XHo6BGW45HyonZHTho5wMNhJG2Xmzmj_Xts6bG5TT_6Fnua8JDjGVqUaX4E3-13qi; _jc_save_fromDate=2019-12-26; _jc_save_toDate=2019-12-25; _jc_save_wfdc_flag=dc; _jc_save_fromStation=%u5317%u4EAC%2CBJP; _jc_save_toStation=%u4E0A%u6D77%2CSHH; BIGipServerpool_passport=367854090.50215.0000; route=9036359bb8a8a461c164a04f8f50b252; BIGipServerotn=837812746.24610.0000'
 }
-train_url = 'https://kyfw.12306.cn/otn/leftTicket/queryZ?leftTicketDTO.train_date={0}&leftTicketDTO.from_station={1}&leftTicketDTO.to_station={2}&purpose_codes=ADULT'
+train_url = 'https://kyfw.12306.cn/otn/leftTicket/queryO?leftTicketDTO.train_date={0}&leftTicketDTO.from_station={1}&leftTicketDTO.to_station={2}&purpose_codes=ADULT'
 price_url = 'https://kyfw.12306.cn/otn/leftTicket/queryTicketPrice?train_no={0}&from_station_no={1}&to_station_no={2}&seat_types={3}&train_date={4}'
 station_list_url = 'https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no={0}&from_station_telecode={1}&to_station_telecode={2}&depart_date={3}'
 train_list = []
